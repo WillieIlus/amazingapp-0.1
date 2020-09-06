@@ -25,7 +25,8 @@ SECRET_KEY = 'qbfj=o1$m&um&7tbeqr%_coeso72zym)g%s!oca-zh1%l=@e4u'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['http://my-amazing-app.captain.test.biasharahub.com/']
+ALLOWED_HOSTS = ['http://my-amazing-app.captain.test.biasharahub.com/', '*', 'localhost', '127.0.0.1', 'biasharahub.herokuapp.com', 'biasharahub.com']
+
 
 
 # Application definition
