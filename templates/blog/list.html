@@ -5,9 +5,12 @@
   <title>Amazing blog</title>
 </head>
 <body>
+    <div class="container">
+
 {% for blog in blog %}<h3><a href="{{ obj.get_absolute_url }}">
   {{ blog.title }}</a></h3><br/>
 {{ blog.content }}<hr/>
 {% endfor %}
+    </div>
 </body>
 </html>
