@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Amazing Home</title>
+</head>
+<body>
+
+<h1>Welcome Home</h1>
+{% for blog in blog %}
+<h3><a href="{{ blog.get_absolute_url }}">{{ blog.title }}</a></h3><br/>
+<p>{{ blog.content }}</p><hr/>
+{% endfor %}
+</body>
+</html>
